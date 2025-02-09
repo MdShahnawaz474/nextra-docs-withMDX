@@ -16,15 +16,17 @@ export default function Home() {
           <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-6">
             Nextra V4
           </h1>
-          <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-            I have just picked the homepage from Deepseek and I find the Docs site prebuilt by a user on Github so yeah credit to that guy. Giving to you this with some tweaks. Thank you!
-          </p>
+          
           <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
             Check krke batana is this ok or not!
           </p>
           <div className="flex justify-center gap-4">
             <Link href="/docs/get-started" className="flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
               Get Started
+              <ArrowRightIcon className="ml-2 h-4 w-4" />
+            </Link>
+            <Link href="/mdx-editor" className="flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+              MDX Editor
               <ArrowRightIcon className="ml-2 h-4 w-4" />
             </Link>
           </div>
