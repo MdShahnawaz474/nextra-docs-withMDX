@@ -17,7 +17,7 @@ export default function Home() {
             Nextra V4
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-            I've just picked the homepage from Deepseek and I find the Docs site prebuilt by a user on Github so yeah credit to that guy. Giving to you this with some tweaks. Thank you!
+            I have just picked the homepage from Deepseek and I find the Docs site prebuilt by a user on Github so yeah credit to that guy. Giving to you this with some tweaks. Thank you!
           </p>
           <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
             Check krke batana is this ok or not!
