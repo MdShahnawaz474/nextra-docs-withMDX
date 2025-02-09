@@ -1,5 +1,6 @@
 import { ArrowRightIcon, RocketIcon, FileTextIcon, CodeIcon, SearchIcon, PaletteIcon } from 'lucide-react';
 import { Metadata } from "next";
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: "Nextra 4 - The Next-Gen Documentation Platform",
@@ -22,10 +23,10 @@ export default function Home() {
             Check krke batana is this ok or not!
           </p>
           <div className="flex justify-center gap-4">
-            <a href="/docs/get-started" className="flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+            <Link href="/docs/get-started" className="flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
               Get Started
               <ArrowRightIcon className="ml-2 h-4 w-4" />
-            </a>
+            </Link>
           </div>
         </div>
       </section>
