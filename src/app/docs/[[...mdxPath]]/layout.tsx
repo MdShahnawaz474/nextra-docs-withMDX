@@ -11,8 +11,8 @@ export const metadata: Metadata = {
   description: "Nextra 4 is here.",
 };
 
-const banner = <Banner storageKey="some-key">For Shahnawaz Bhai 🎉</Banner>;
-const footer = <Footer>MIT {new Date().getFullYear()} © Bhavesh Patil (lol 😂)</Footer>;
+
+const footer = <Footer>FirstBench Technology </Footer>;
 
 export default async function RootLayout({
   children,
@@ -24,7 +24,6 @@ export default async function RootLayout({
       <Head />
       <body>
         <Layout
-          banner={banner}
           navbar={
             <Navbar
               logo={<h1 className="text-2xl"> Nextra</h1>}
