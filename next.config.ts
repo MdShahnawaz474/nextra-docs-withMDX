@@ -1,3 +1,7 @@
+// import type { NextConfig } from "next";
+
+import { NextConfig } from "next";
+
 import nextra from "nextra";
 
 const withNextra = nextra({
@@ -6,7 +10,7 @@ const withNextra = nextra({
   contentDirBasePath: "/docs",
 });
 
-const nextConfig = withNextra({
+const nextConfig: NextConfig = withNextra({
   reactStrictMode: true,
 });
 
