@@ -31,8 +31,6 @@ export default async function RootLayout({
             />
           }
           pageMap={await getPageMap()}
-          docsRepositoryBase="https://github.com/officialrajdeepsingh/nextra-4/tree/main/docs"
-          editLink="Edit this page on GitHub"
           sidebar={{ defaultMenuCollapseLevel: 1, autoCollapse: true }}
           footer={footer}
         >
